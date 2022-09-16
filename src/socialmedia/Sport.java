@@ -1,4 +1,4 @@
-package practice;
+package socialmedia;
 import java.util.*;
  class Tournament{
 	 void day(int a,int b) {

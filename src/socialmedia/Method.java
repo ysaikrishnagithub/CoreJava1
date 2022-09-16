@@ -1,4 +1,4 @@
-package practice;
+package socialmedia;
  class Bank{
 	 void form() {
 		 System.out.println("detailed age__name");

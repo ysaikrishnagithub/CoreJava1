@@ -1,4 +1,4 @@
-package practice;
+package socialmedia;
 class Student1{
 	void name() {
 		System.out.println("FOOTBALL");

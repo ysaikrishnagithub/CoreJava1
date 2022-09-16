@@ -1,4 +1,4 @@
-package practice;
+package socialmedia;
 class Student{
 	int id;
 	double marks;

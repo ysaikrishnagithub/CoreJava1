@@ -1,4 +1,4 @@
-package practice;
+package socialmedia;;
 
 public class Localvariables {
 

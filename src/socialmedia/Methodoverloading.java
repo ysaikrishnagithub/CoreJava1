@@ -1,4 +1,4 @@
-package practice;
+package socialmedia;
 import java.util.*;
  class Sum{
 	 void add(int x,int y ) {

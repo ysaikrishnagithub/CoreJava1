@@ -1,4 +1,4 @@
-package practice;
+package socialmedia;
 
 class OnlineMedia{
 	String accountName;

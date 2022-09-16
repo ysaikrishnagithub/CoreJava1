@@ -1,4 +1,5 @@
-package practice;
+package socialmedia;
+
 class Pt{
 	String name;
 	int numbers;

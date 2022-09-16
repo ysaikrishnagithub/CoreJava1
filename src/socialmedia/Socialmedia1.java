@@ -1,4 +1,4 @@
-package practice;
+package socialmedia;
 class Develop{
 	 void account() {
 		 System.out.println("google account___name$");
