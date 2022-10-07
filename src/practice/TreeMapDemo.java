@@ -1,6 +1,7 @@
 package practice;
 
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
@@ -19,17 +20,22 @@ public class TreeMapDemo {
 		r.put("virat", 1012);
 		System.out.println(r);
 		System.out.println("======================================>");
-		Set u = r.entrySet();
-		Iterator i = u.iterator();;
-		while(i.hasNext()){
-			Entry<String,Integer> f = (Entry<String, Integer>) i.next();
-			System.out.println(f);
-		}
+//		Set u = r.entrySet();
+//		Iterator i = u.iterator();;
+//		while(i.hasNext()){
+//			Entry<String,Integer> f = (Entry<String, Integer>) i.next();
+//			System.out.println(f);
+//		}
 		
+	//	r.forEach((key,value)->System.out.println(key+""+value));
+		for(Map.Entry<String, Integer> f : r.entrySet()) {
+			System.out.println(f.getKey()+" "+f.getValue());
+		}
 		
 		
 		
 		
 	}
 
+	
 }
