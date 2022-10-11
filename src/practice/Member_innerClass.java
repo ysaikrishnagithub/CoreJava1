@@ -21,6 +21,4 @@ public class Member_innerClass {
 		cse.pretest();
 		}
 
-	}
-
-
+}

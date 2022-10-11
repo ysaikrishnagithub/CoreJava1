@@ -1,4 +1,4 @@
-package Ownpractice;
+package stream_demo_class;
 
 import java.util.ArrayList;
 import java.util.List;
